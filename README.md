@@ -80,7 +80,7 @@ Submit compressed zip file including:
  * Student ID           : 1218XXXX
  * Date                 : 2022.02.28
  * Operating System     : Ubuntu 20.04.4 LTS
- * Compiler             : gcc 9.3.0
+ * Compiler             : gcc 9.4.0
  * Build/Host/Target    : x86_64-linux-gnu
  *********************************************************************
  * version      : 1.0.0

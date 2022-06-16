@@ -17,7 +17,7 @@ $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) $<
 
 run:
-	./$(TARGET)
+	./$(TARGET) < in.txt > out.txt
 
 clean:
-	rm *.o $(TARGET)
+	rm *.o $(TARGET) out.txt

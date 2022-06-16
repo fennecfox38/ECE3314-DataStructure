@@ -17,7 +17,7 @@ $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) $<
 
 run:
-	./$(TARGET)
+	./$(TARGET) infix.txt postfix.txt
 
 clean:
-	rm *.o $(TARGET)
+	rm *.o $(TARGET) postfix.txt
